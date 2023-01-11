@@ -25,10 +25,7 @@ jobs:
 
       - name: Build
         run: |
-          npm ci
-          npm run build
-          npm run export
-          touch out/.nojekyll
+          npm run dev
 
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
