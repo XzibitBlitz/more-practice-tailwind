@@ -2,9 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'imgix',
-    path: 'blitz-more-practice-tailwind.imgix.net',
+    loader: 'akamai',
+    path: '',
   },
+  assetPrefix: './',
 }
 
 module.exports = nextConfig
