@@ -1,12 +1,10 @@
+// @ts-check
+
 /**
  * @type {import('next').NextConfig}
- */
+ **/
 const nextConfig = {
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-  assetPrefix: './',
-};
+  basePath: '/gh-pages-test',
+}
 
-export default nextConfig;
+module.exports = nextConfig
